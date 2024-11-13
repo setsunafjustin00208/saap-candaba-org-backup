@@ -1,0 +1,20 @@
+{
+    "global": [
+         "./node_modules/bulma/bulma.scss"
+    ],
+    "index": [
+        "./scss/pages/index.scss"
+    ],
+    "login": [
+        "./scss/pages/login.scss"
+    ],
+    "articles": [
+        "./scss/pages/articles.scss"
+    ],
+    "music": [
+        "./scss/pages/music.scss"
+    ],
+    "highlights": [
+        "./scss/pages/highlights.scss"
+    ]
+}

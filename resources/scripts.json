@@ -1,0 +1,21 @@
+{
+    "index": [
+        "./ts/pages/index.ts"
+    ],
+
+    "login": [
+        "./ts/pages/login.ts"
+    ],
+
+    "articles": [
+        "./ts/pages/articles.ts"
+    ],
+
+    "music": [
+        "./ts/pages/music.ts"
+    ],
+
+    "highlights": [
+        "./ts/pages/highlights.ts"
+    ]
+}

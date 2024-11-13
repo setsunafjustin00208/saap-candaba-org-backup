@@ -1,0 +1,30 @@
+{
+  "imports": {
+    "alpinejs": "npm:alpinejs@^3.14.3",
+    "animejs": "npm:animejs@^3.2.2",
+    "aos": "npm:aos@^2.3.4",
+    "bulma": "npm:bulma@^1.0.2",
+    "bulma-extensions": "npm:bulma-extensions@^6.2.7",
+    "chart.js": "npm:chart.js@^4.4.6",
+    "css-loader": "npm:css-loader@^7.1.2",
+    "datatables.net-dt": "npm:datatables.net-dt@^2.1.8",
+    "fontawesome": "npm:fontawesome@^5.6.3",
+    "howler": "npm:howler@^2.2.4",
+    "jquery": "npm:jquery@^3.7.1",
+    "mini-css-extract-plugin": "npm:mini-css-extract-plugin@^2.9.2",
+    "purgecss": "npm:purgecss@^6.0.0",
+    "quill": "npm:quill@2.0.2",
+    "sass": "npm:sass@^1.80.6",
+    "sass-loader": "npm:sass-loader@^16.0.3",
+    "style-loader": "npm:style-loader@^4.0.0",
+    "ts-loader": "npm:ts-loader@^9.5.1",
+    "typescript": "npm:typescript@^5.6.3",
+    "webpack": "npm:webpack@^5.96.1",
+    "webpack-cli": "npm:webpack-cli@^5.1.4"
+  },
+   "nodeModulesDir": "auto",
+   
+  "tasks": {
+    "build": "webpack --config webpack.config.js --mode production"
+  }
+}
