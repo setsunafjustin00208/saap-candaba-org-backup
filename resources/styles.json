@@ -1,20 +1,43 @@
 {
+  "frontend": {
     "global": [
-         "./node_modules/bulma/bulma.scss"
+        "./node_modules/bulma/bulma.scss"
     ],
     "index": [
-        "./scss/pages/index.scss"
+        "./scss/frontend/pages/index.scss"
     ],
     "login": [
-        "./scss/pages/login.scss"
+        "./scss/frontend/pages/login.scss"
     ],
     "articles": [
-        "./scss/pages/articles.scss"
+        "./scss/frontend/pages/articles.scss"
     ],
     "music": [
-        "./scss/pages/music.scss"
+        "./scss/frontend/pages/music.scss"
     ],
     "highlights": [
-        "./scss/pages/highlights.scss"
+        "./scss/frontend/pages/highlights.scss"
     ]
+  }, 
+
+  "cms": {
+    "global": [
+        "./node_modules/bulma/bulma.scss"
+    ],
+    "index": [
+        "./scss/cms/pages/index.scss"
+    ],
+    "login": [
+        "./scss/cms/pages/login.scss"
+    ],
+    "articles": [
+        "./scss/cms/pages/articles.scss"
+    ],
+    "music": [
+        "./scss/cms/pages/music.scss"
+    ],
+    "highlights": [
+        "./scss/cms/pages/highlights.scss"
+    ]
+  }
 }

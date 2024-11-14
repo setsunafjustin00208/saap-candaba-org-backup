@@ -22,10 +22,13 @@
     "webpack": "npm:webpack@^5.96.1",
     "webpack-cli": "npm:webpack-cli@^5.1.4"
   },
+
    "nodeModulesDir": "auto",
    
   "tasks": {
-     "build": "webpack --config webpack.config.js --mode production",
-    "watch": "webpack --config webpack.config.js --watch"
+    "build:frontend": "webpack --config webpack.frontend.config.js --mode production",
+    "build:cms": "webpack --config webpack.cms.config.js --mode production",
+    "watch:frontend": "webpack --config webpack.frontend.config.js --watch",
+    "watch:cms": "webpack --config webpack.cms.config.js --watch"
   }
 }

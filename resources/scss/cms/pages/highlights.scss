@@ -1,0 +1,12 @@
+@use '../../_mixins' as mixins;
+
+// Example usage of mixins
+@include mixins.screen-mobile {
+    body {
+        text-align: center;
+    }
+}
+
+body {
+    text-align: left;
+}

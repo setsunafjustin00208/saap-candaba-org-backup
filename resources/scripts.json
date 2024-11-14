@@ -1,21 +1,48 @@
 {
-    "index": [
-        "./ts/pages/index.ts"
-    ],
 
-    "login": [
-        "./ts/pages/login.ts"
-    ],
+    "frontend": {
 
-    "articles": [
-        "./ts/pages/articles.ts"
-    ],
+        "index": [
+        "./ts/frontend/pages/index.ts"
+        ],
 
-    "music": [
-        "./ts/pages/music.ts"
-    ],
+        "login": [
+            "./ts/frontend/pages/login.ts"
+        ],
 
-    "highlights": [
-        "./ts/pages/highlights.ts"
-    ]
+        "articles": [
+            "./ts/frontend/pages/articles.ts"
+        ],
+
+        "music": [
+            "./ts/frontend/pages/music.ts"
+        ],
+
+        "highlights": [
+            "./ts/frontend/pages/highlights.ts"
+        ]
+    },
+
+    "cms": {
+        "index": [
+        "./ts/cms/pages/index.ts"
+        ],
+
+        "login": [
+            "./ts/cms/pages/login.ts"
+        ],
+
+        "articles": [
+            "./ts/cms/pages/articles.ts"
+        ],
+
+        "music": [
+            "./ts/cms/pages/music.ts"
+        ],
+
+        "highlights": [
+            "./ts/cms/pages/highlights.ts"
+        ]
+    }
+    
 }
