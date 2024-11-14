@@ -1,6 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const webpack = require('webpack');
 
 const scripts = JSON.parse(fs.readFileSync(path.resolve(__dirname, 'scripts.json'), 'utf-8'));
 const styles = JSON.parse(fs.readFileSync(path.resolve(__dirname, 'styles.json'), 'utf-8'));
@@ -48,5 +49,16 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: 'css/[name].css',
     }),
+    new webpack.ProgressPlugin((percentage, message, ...args) => {
+      console.info((percentage * 100).toFixed(2) + '%', message, ...args);
+    }),
+    {
+      apply: (compiler) => {
+        compiler.hooks.done.tap('DonePlugin', (stats) => {
+          console.log('Compilation is done!');
+        });
+      },
+    },
   ],
+  watch: true,
 };

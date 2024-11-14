@@ -25,6 +25,7 @@
    "nodeModulesDir": "auto",
    
   "tasks": {
-    "build": "webpack --config webpack.config.js --mode production"
+     "build": "webpack --config webpack.config.js --mode production",
+    "watch": "webpack --config webpack.config.js --watch"
   }
 }
